@@ -18,3 +18,4 @@ promiseTimeout(2000)
     .catch(()=>{
         console.log("Error!");
     });
+console.log("End");
