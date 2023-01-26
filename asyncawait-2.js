@@ -9,8 +9,8 @@ async function logRunningOperation(){
 async function run(){
     console.log("start!!");
     await promiseTimeout(2000);
-    const reponse = await logRunningOperation();
-    console.log(reponse);
+    const response = await logRunningOperation();
+    console.log(response);
     console.log("Stop!!");
 }
 

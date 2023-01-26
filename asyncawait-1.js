@@ -8,5 +8,6 @@ async function run(){
     await promiseTimeout(2000);
     console.log("Stop!!");
 }
-
+console.log('Befor run');
 run();
+console.log('After run');
